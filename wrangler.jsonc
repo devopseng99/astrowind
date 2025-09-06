@@ -1,14 +1,10 @@
 {
   "name": "astrowind",
-  "compatibility_date": "2024-01-01",
+  "compatibility_date": "2024-09-23",
   "compatibility_flags": ["nodejs_compat"],
   
   // Main configuration for the worker
   "main": "dist/_worker.js",
-  "assets": {
-    "directory": "dist",
-    "binding": "ASSETS"
-  },
   
   // Environment variables (add your own as needed)
   "vars": {
@@ -72,8 +68,8 @@
         "ENVIRONMENT": "development"
       },
       // Use preview IDs for development
-      "compatibility_date": "2024-01-01"
-    },
+      "compatibility_date": "2024-09-23"
+    }/*,
     "staging": {
       "vars": {
         "ENVIRONMENT": "staging"
@@ -81,6 +77,6 @@
       //"routes": [
       //  "*staging.your-domain.com/*"
       //]
-    }
+    }*/
   }
 }
